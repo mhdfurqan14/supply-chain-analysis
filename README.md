@@ -50,10 +50,8 @@ The dataset contains information related to:
 
 - Python
 - Pandas
-- NumPy
 - Matplotlib
-- Seaborn
-- Jupyter Notebook / Google Colab
+- Google Colab
 - Power BI *(Dashboard)*
 
 ---
@@ -102,11 +100,13 @@ Power BI dashboard.
 
 Some of the key findings from the analysis include:
 
-1. Skincare is one of the major contributors to overall revenue.
-2. Product categories have different sales and pricing characteristics.
-3. Supplier performance varies based on manufacturing lead time and defect rate.
-4. Manufacturing and shipping performance can be used to identify potential supply chain improvements.
+1. Inventory Level Does Not Directly Drive Sales
+The analysis shows no clear relationship between stock levels and sales volume. Higher inventory does not necessarily result in higher sales.
+2. Best-Selling Products Do Not Always Have High Inventory Levels
+Some of the best-selling products have relatively lower stock levels, while products with high inventory levels may have relatively low sales. This indicates that inventory allocation is not necessarily aligned with customer demand.
 
+3. High Inventory Does Not Guarantee Strong Product Performance
+Products with large stock quantities are not necessarily the products with the highest sales. This suggests a potential inventory optimization opportunity, particularly for slow-moving products.
 ---
 
 ## 📈 Dashboard
@@ -118,11 +118,7 @@ The Power BI dashboard provides an interactive view of:
 - Product Performance
 - Revenue by Product Type
 - Supplier Performance
-- Manufacturing Lead Time
-- Defect Rate
 - Shipping Performance
-
-*(Dashboard screenshot will be added here.)*
 
 ---
 
